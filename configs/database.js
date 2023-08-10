@@ -1,6 +1,6 @@
 const pg = require("pg");
 
-const database = new pg.Client("postgres://dzfrgizj:mM33nXZou7FERGJEyu1E9SBzpjZfRsKU@silly.db.elephantsql.com/dzfrgizj");
+const database = new pg.Client("URL");
 
 database.connect((erro) => {
     if(erro) {
